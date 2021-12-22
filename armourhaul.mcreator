@@ -1,0 +1,191 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "DirtArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirtArmour",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DirtHelmet",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_helmet"
+    },
+    {
+      "name": "DirtChestplate",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_chestplate"
+    },
+    {
+      "name": "DirtLeggings",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_leggings"
+    },
+    {
+      "name": "DirtBoots",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_boots"
+    },
+    {
+      "name": "WoodArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WoodArmour",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "WoodHelmet",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_helmet"
+    },
+    {
+      "name": "WoodChestplate",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_chestplate"
+    },
+    {
+      "name": "WoodLeggings",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_leggings"
+    },
+    {
+      "name": "WoodBoots",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_boots"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.armourhaul.dirt_armour_leggings": "Dirt Leggings",
+      "item.armourhaul.wood_armour_helmet": "Wood Helmet",
+      "item.armourhaul.wood_armour_boots": "Wood Boots",
+      "item.armourhaul.wood_armour_chestplate": "Wood Chestplate",
+      "item.armourhaul.dirt_armour_chestplate": "Dirt Chestplate",
+      "item.armourhaul.dirt_armour_boots": "Dirt Boots",
+      "item.armourhaul.wood_armour_leggings": "Wood Leggings",
+      "item.armourhaul.dirt_armour_helmet": "Dirt Helmet"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "armourhaul",
+    "modName": "Armourhaul",
+    "version": "a0.0.1",
+    "description": "wip",
+    "author": "vestage",
+    "websiteURL": "https://www.youtube.com/channel/UCyWa3N-5pDBu8znv-GObiQg",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "This mod was made by Vestage!",
+    "modElementsPackage": "net.armourhaul",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100351610
+}
